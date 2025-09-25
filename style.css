@@ -1,11 +1,16 @@
 body { 
-  font-family: Arial, sans-serif; 
-  height: 30px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   display: flex;
   background-color: #cdebfe; } 
 
 .container { 
-  max-width: 1200px; 
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 600px;
   margin: auto; 
   padding: 50px 50px 50px; /* одинаковые отступы слева и справа */ 
   background-color: #e2f4fe; 
@@ -58,6 +63,7 @@ body {
 }
 
 main {
+  flex: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -134,4 +140,3 @@ main {
     font-size: 40px;
   }
 }
-
